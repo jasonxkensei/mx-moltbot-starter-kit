@@ -82,4 +82,10 @@ export const CONFIG = {
     PEM_PATH: process.env.EMPLOYER_PEM_PATH || '',
     ADDRESS: process.env.EMPLOYER_ADDRESS || '',
   },
+
+    // xProof Certification (https://xproof.app)
+  XPROOF: {
+    BASE_URL: process.env.XPROOF_BASE_URL || 'https://xproof.app',
+    API_KEY: process.env.XPROOF_API_KEY || '',
+  },
 };
