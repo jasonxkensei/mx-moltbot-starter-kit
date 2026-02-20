@@ -89,3 +89,20 @@ export {
   type OASFSkillGroup,
   type OASFDomainGroup,
 } from './oasf_taxonomy';
+
+// xProof (off-chain certification + composite MX-8004 flow)
+export {
+  certifyFile,
+  certifyHash,
+  certifyBatch,
+  verifyProof,
+  certifyAndSubmitProof,
+  XProofPaymentRequired,
+  type CertifyFileParams,
+  type CertifyHashParams,
+  type CertifyBatchParams,
+  type CertificationResult,
+  type BatchCertificationResult,
+  type ProofData,
+  type CertifyAndSubmitResult,
+} from './xproof_skills';
